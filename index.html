@@ -8,7 +8,7 @@ Open Map
 </button>
     <script>
       document.getElementById('openmap').addEventListener('click',() => {
-const url = "comgooglemaps://?q=44.735475298896446,41.724984544347215";
+const url = "comgooglemaps://?q=geo:41.724984544347215,44.735475298896446?q=41.724984544347215,44.735475298896446";
   const opened = window.open(url, '_blank');
         alert(opened);
 })
